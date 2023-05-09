@@ -1,0 +1,89 @@
+nav{
+    background: linear-gradient(150deg,rgb(59, 37, 255),rgb(14, 16, 179),rgb(2, 16, 97));
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-enlace{
+    display: inline-block;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin:5px 5px;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.nav-enlace:hover{
+    background-color:rgb(80, 163, 211);
+}
+
+.nav-enlace ul:hover{
+    display: block;
+    background-color: white;
+    font-family:inherit;
+    margin: 10px 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    position: static;
+    bottom: 0;
+    left: 0;
+    padding: 1rem 8%;
+    background: linear-gradient(150deg,rgb(105, 204, 243),rgb(46, 80, 231));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(img/icons8-instagram-24.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+.social-icon:hover{
+    background-color: white;
+}
+.social-icon:nth-of-type(2){
+    background-image: url(img/icons8-whatsapp-32.png);
+}
+.social-icon:nth-of-type(3){
+    background-image: url(img/icons8-gmail-50.png);
+}
+.footer-menu-container{
+    list-style: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-item:hover{
+    opacity: 1;
+}
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
